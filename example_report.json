@@ -1,0 +1,25 @@
+{
+  "name": "Student club cable clips \u2014 sample data",
+  "quantity": 4,
+  "material_per_attempt": 1.2,
+  "power_per_attempt": 0.045,
+  "machine_per_attempt": 1.5,
+  "labor_per_part": 2.0,
+  "expected_job_cost": 22.2,
+  "suggested_price": 31.72,
+  "target_gross_margin": 0.3,
+  "expected_filament_g": 266.67,
+  "spool_expected_sufficient": true,
+  "dimensions_mm": [
+    80.0,
+    45.0,
+    30.0
+  ],
+  "fits_axis_aligned": true,
+  "limitations": [
+    "Cost estimate uses user-provided slicer mass/time and independent identical failure attempts.",
+    "Labor is charged once per finished part; setup once per job. Adjust rates to your process.",
+    "Fit tests only 90-degree axis permutations. No support, brim, collision, strength or manifold analysis.",
+    "Expected filament is not a guarantee of sufficient stock. Currency follows your inputs."
+  ]
+}
